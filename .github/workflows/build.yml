@@ -23,10 +23,10 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - sneexy/wuzetka.yml
-          #- sneexy/mazurek.yml
-          - rexogamer/recipe.yml
-          - amycatgirl/recipe.yml
+          #- sneexy/wuzetka.yml
+          - sneexy/mazurek.yml
+          #- rexogamer/recipe.yml
+          #- amycatgirl/recipe.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
